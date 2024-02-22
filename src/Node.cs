@@ -1,11 +1,10 @@
-using System;
-
 namespace BinaryTree;
 
 public unsafe ref struct Node
 {
+    public ushort id;
 
-   private Node* left, right ;
+    public Node* left, right ;
 
 
    // If both pointers are null the node is a leaf
@@ -28,6 +27,6 @@ public unsafe ref struct Node
       // Then shorten by a known size
       // sum the offside
 
-      return right;
+      return left;
    }
 }
