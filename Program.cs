@@ -1,5 +1,9 @@
-using BinaryTree;
+﻿using BinaryTree;
 
-Implementation implementation = new();
+Console.WriteLine("Hello, World!");
 
-implementation.MeasureStructSize();
+Implementation imp = new ();
+
+imp.MeasureStructSize();
+imp.MeasurePointerSize();
+
